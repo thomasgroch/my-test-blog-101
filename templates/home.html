@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>{{ page.content.title }}</h1>
+        <p>{{ page.content.description }}</p>
+    </header>
+
+    <main>
+        <img src="{{ page.content.featured_image }}" alt="Featured Image">
+        <section>
+            {{ page.content.body | safe }}
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+
+    <script src="/assets/js/script.js"></script>
+</body>
+</html>

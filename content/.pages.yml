@@ -1,0 +1,38 @@
+pages:
+  - title: "Home"
+    slug: "/"
+    template: "home"
+    content:
+      title: "Welcome to Our Website"
+      description: "This is the homepage of our website."
+      featured_image: "/assets/images/home.jpg"
+      body: |
+        Welcome to our website! We're excited to have you here.
+
+        ## About Us
+
+        Learn more about our company and what we do.
+
+        ## Our Services
+
+        Discover the range of services we offer.
+
+  - title: "About Us"
+    slug: "/about"
+    template: "default"
+    content:
+      title: "About Our Company"
+      description: "Learn more about our company."
+      body: |
+        Here at our company, we strive to provide the best service possible...
+
+  - title: "Contact"
+    slug: "/contact"
+    template: "contact"
+    content:
+      title: "Get in Touch"
+      description: "Contact us for any inquiries."
+      contact_info:
+        email: "info@example.com"
+        phone: "+123456789"
+        address: "123 Main Street, City, Country"
